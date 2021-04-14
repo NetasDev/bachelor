@@ -2,3 +2,4 @@ trained[[:space:]]network/6x6/12h/weights filter=lfs diff=lfs merge=lfs -text
 trained[[:space:]]network/6x6/24h/weights filter=lfs diff=lfs merge=lfs -text
 trained[[:space:]]network/8x8/24h/weights filter=lfs diff=lfs merge=lfs -text
 trained[[:space:]]network/8x8/12h/weights filter=lfs diff=lfs merge=lfs -text
+trained[[:space:]]network/ filter=lfs diff=lfs merge=lfs -text
