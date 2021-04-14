@@ -1,0 +1,4 @@
+,MCTS sims 25,MCTS sims 50,MCTS sims 100
+MCTS sims 25,0,10,18
+MCTS sims 50,10,0,17
+MCTS sims 100,18,17,0
