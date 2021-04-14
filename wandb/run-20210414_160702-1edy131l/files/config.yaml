@@ -1,0 +1,57 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.26
+    framework: tensorflow
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.13
+    t:
+      1:
+      - 3
+      2:
+      - 3
+      4: 3.6.13
+      5: 0.10.26
+      8:
+      - 5
+checkpoint:
+  desc: null
+  value: ./temp/Othello6x6/
+load_folder_file:
+  desc: null
+  value:
+  - ./temp/Othello8x8/First model/
+  - checkpoint_14
+load_model:
+  desc: null
+  value: false
+maxtime:
+  desc: null
+  value: 10800
+numEvaluationGames:
+  desc: null
+  value: 1
+numIters:
+  desc: null
+  value: 1000
+numItersForTrainExamplesHistory:
+  desc: null
+  value: 10
+numMCTSSims:
+  desc: null
+  value: 50
+numSelfplayGames:
+  desc: null
+  value: 1
+turnThreshold:
+  desc: null
+  value: 15
+updateThreshold:
+  desc: null
+  value: 0.55
+wandb_project:
+  desc: null
+  value: Othello6x6 - 3h

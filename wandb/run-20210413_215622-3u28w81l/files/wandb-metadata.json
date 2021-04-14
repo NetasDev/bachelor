@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.8.0-48-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.6.12",
+    "heartbeatAt": "2021-04-13T19:56:24.492979",
+    "startedAt": "2021-04-13T19:56:22.959574",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "main.py",
+    "program": "main.py",
+    "git": {
+        "remote": "https://github.com/NetasDev/NetworkTraining.git",
+        "commit": "1683309f4638d69f2c4be60dfd12ba821be6d961"
+    },
+    "email": "tokae100@uni-duesseldorf.de",
+    "root": "/home/tobias/Desktop/bachelor repository/NetworkTraining",
+    "host": "tobias-System-Product-Name",
+    "username": "tobias",
+    "executable": "/home/tobias/anaconda3/envs/testenv/bin/python"
+}

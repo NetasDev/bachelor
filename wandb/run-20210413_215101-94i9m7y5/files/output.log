@@ -1,0 +1,641 @@
+[32m2021-04-13 21:51:02[0m [35mtobias-System-Product-Name[0m [34m__main__[215045][0m [1;30mINFO[0m Starting the learning process 🎉
+[32m2021-04-13 21:51:02[0m [35mtobias-System-Product-Name[0m [34mCoach[215045][0m [1;30mINFO[0m Starting Iter #1 ...
+1Self Play:   0%|          | 0/100 [00:00<?, ?it/s]
+2021-04-13 21:51:02.993818: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-04-13 21:51:03.021313: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.021630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2021-04-13 21:51:03.021746: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-13 21:51:03.022497: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-13 21:51:03.023164: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-13 21:51:03.023313: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-13 21:51:03.024183: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-13 21:51:03.024888: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-13 21:51:03.026967: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-13 21:51:03.027054: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.027690: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.028089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-04-13 21:51:03.028718: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-04-13 21:51:03.032805: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2021-04-13 21:51:03.033059: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5585aef07630 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-13 21:51:03.033074: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-13 21:51:03.033245: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.033860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+2021-04-13 21:51:03.033908: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-13 21:51:03.033918: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-13 21:51:03.033928: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-04-13 21:51:03.033941: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-04-13 21:51:03.033956: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-04-13 21:51:03.033973: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-04-13 21:51:03.033990: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-13 21:51:03.034057: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.034759: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.035207: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-04-13 21:51:03.035252: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-04-13 21:51:03.090300: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-13 21:51:03.090320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-04-13 21:51:03.090324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-04-13 21:51:03.090478: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.090899: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.091320: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-04-13 21:51:03.091663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10169 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2021-04-13 21:51:03.092909: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5585b06bd4e0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-04-13 21:51:03.092922: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2021-04-13 21:51:03.703903: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-04-13 21:51:03.799912: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-04-13 21:51:04.179587: W tensorflow/stream_executor/cuda/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+probabilistic
+2
+probabilistic
+3
+probabilistic
+4
+probabilistic
+5
+probabilistic
+6
+probabilistic
+7
+probabilistic
+8
+probabilistic
+9
+probabilistic
+10
+probabilistic
+11
+probabilistic
+12
+probabilistic
+13
+probabilistic
+14
+probabilistic
+15
+deterministic
+16
+deterministic
+17
+deterministic
+18
+deterministic
+19
+deterministic
+20
+deterministic
+21
+deterministic
+22
+deterministic
+23
+deterministic
+24
+deterministic
+25
+deterministic
+26
+deterministic
+27
+deterministic
+28
+deterministic
+29
+deterministic
+30
+deterministic
+31
+deterministic
+32
+deterministic
+33
+deterministic
+34
+deterministic
+35
+deterministic
+36
+deterministic
+37
+deterministic
+38
+deterministic
+39
+deterministic
+40
+deterministic
+41
+deterministic
+42
+deterministic
+43
+deterministic
+44
+deterministic
+45
+deterministic
+46
+deterministic
+47
+deterministic
+48
+deterministic
+49
+deterministic
+50
+deterministic
+51
+deterministic
+52
+deterministic
+53
+deterministic
+54
+deterministic
+55
+deterministic
+56
+deterministic
+57
+deterministic
+58
+deterministic
+59
+deterministicSelf Play:   1%|          | 1/100 [00:13<22:33, 13.67s/it]
+60
+deterministic
+1
+probabilistic
+2
+probabilistic
+3
+probabilistic
+4
+probabilistic
+5
+probabilistic
+6
+probabilistic
+7
+probabilistic
+8
+probabilistic
+9
+probabilistic
+10
+probabilistic
+11
+probabilistic
+12
+probabilistic
+13
+probabilistic
+14
+probabilistic
+15
+deterministic
+16
+deterministic
+17
+deterministic
+18
+deterministic
+19
+deterministic
+20
+deterministic
+21
+deterministic
+22
+deterministic
+23
+deterministic
+24
+deterministic
+25
+deterministic
+26
+deterministic
+27
+deterministic
+28
+deterministic
+29
+deterministic
+30
+deterministic
+31
+deterministic
+32
+deterministic
+33
+deterministic
+34
+deterministic
+35
+deterministic
+36
+deterministic
+37
+deterministic
+38
+deterministic
+39
+deterministic
+40
+deterministic
+41
+deterministic
+42
+deterministic
+43
+deterministic
+44
+deterministic
+45
+deterministic
+46
+deterministic
+47
+deterministic
+48
+deterministic
+49
+deterministic
+50
+deterministic
+51
+deterministic
+52
+deterministic
+53
+deterministic
+54
+deterministic
+55
+deterministic
+56
+deterministic
+57
+deterministic
+58
+deterministic
+59
+deterministic
+Self Play:   2%|▏         | 2/100 [00:26<21:31, 13.18s/it]60
+deterministic
+61
+deterministic
+1
+probabilistic
+2
+probabilistic
+3
+probabilistic
+4
+probabilistic
+5
+probabilistic
+6
+probabilistic
+7
+probabilistic
+8
+probabilistic
+9
+probabilistic
+10
+probabilistic
+11
+probabilistic
+12
+probabilistic
+13
+probabilistic
+14
+probabilistic
+15
+deterministic
+16
+deterministic
+17
+deterministic
+18
+deterministic
+19
+deterministic
+20
+deterministic
+21
+deterministic
+22
+deterministic
+23
+deterministic
+24
+deterministic
+25
+deterministic
+26
+deterministic
+27
+deterministic
+28
+deterministic
+29
+deterministic
+30
+deterministic
+31
+deterministic
+32
+deterministic
+33
+deterministic
+34
+deterministic
+35
+deterministic
+36
+deterministic
+37
+deterministic
+38
+deterministic
+39
+deterministic
+40
+deterministic
+41
+deterministic
+42
+deterministic
+43
+deterministic
+44
+deterministic
+45
+deterministic
+46
+deterministic
+47
+deterministic
+48
+deterministic
+49
+deterministic
+50
+deterministic
+51
+deterministic
+52
+deterministic
+53
+deterministic
+54
+deterministic
+55
+deterministic
+56
+deterministic
+57
+deterministic
+58
+deterministic
+Self Play:   3%|▎         | 3/100 [00:39<21:11, 13.11s/it]59
+deterministic
+60
+deterministic
+1
+probabilistic
+2
+probabilistic
+3
+probabilistic
+4
+probabilistic
+5
+probabilistic
+6
+probabilistic
+7
+probabilistic
+8
+probabilistic
+9
+probabilistic
+10
+probabilistic
+11
+probabilistic
+12
+probabilistic
+13
+probabilistic
+14
+probabilistic
+15
+deterministic
+16
+deterministic
+17
+deterministic
+18
+deterministic
+19
+deterministic
+20
+deterministic
+21
+deterministic
+22
+deterministic
+23
+deterministic
+24
+deterministic
+25
+deterministic
+26
+deterministic
+27
+deterministic
+28
+deterministic
+29
+deterministic
+30
+deterministic
+31
+deterministic
+32
+deterministic
+33
+deterministic
+34
+deterministic
+35
+deterministic
+36
+deterministic
+37
+deterministic
+38
+deterministic
+39
+deterministic
+40
+deterministic
+41
+deterministic
+42
+deterministic
+43
+deterministic
+44
+deterministic
+45
+deterministic
+46
+deterministic
+47
+deterministic
+48
+deterministic
+49
+deterministic
+50
+deterministic
+51
+deterministic
+52
+deterministic
+53
+deterministic
+54
+deterministic
+55
+deterministic
+56
+deterministic
+57
+deterministic
+58
+deterministic
+59
+deterministic
+60
+deterministic
+61
+deterministic
+Self Play:   4%|▍         | 4/100 [00:52<20:42, 12.94s/it]1
+probabilistic
+2
+probabilistic
+3
+probabilistic
+4
+probabilistic
+5
+probabilistic
+6
+probabilistic
+7
+probabilistic
+8
+probabilistic
+9
+probabilistic
+10
+probabilistic
+11
+probabilistic
+12
+probabilistic
+13
+probabilistic
+14
+probabilistic
+15
+deterministic
+16
+deterministic
+17
+deterministic
+18
+deterministic
+19
+deterministic
+20
+deterministic
+21
+deterministic
+22
+deterministic
+23
+deterministic
+24
+deterministic
+25
+deterministic
+26
+deterministic
+27
+deterministic
+28
+deterministic
+29
+deterministic
+30
+deterministic
+31
+deterministic
+32
+deterministic
+33
+deterministic
+34
+deterministic
+35
+deterministic
+36
+deterministic
+37
+deterministic
+38
+deterministic
+39
+deterministic
+40
+Self Play:   4%|▍         | 4/100 [01:01<24:27, 15.29s/it]
+Traceback (most recent call last):
+  File "main.py", line 62, in <module>
+    main()
+  File "main.py", line 57, in main
+    c.learn()
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/Coach.py", line 103, in learn
+    iterationTrainExamples += self.selfplay()
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/Coach.py", line 63, in selfplay
+    pi = self.mcts.getActionProb(canonicalBoard, deterministic=deterministic)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/MCTS.py", line 46, in getActionProb
+    self.search(canonicalBoard)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/MCTS.py", line 144, in search
+    v = self.search(next_s)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/MCTS.py", line 144, in search
+    v = self.search(next_s)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/MCTS.py", line 105, in search
+    legal = self.game.getLegalMoves(canonicalBoard, 1)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/othello/OthelloGame.py", line 55, in getLegalMoves
+    legalMoves =  b.get_legal_moves(player)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/othello/OthelloLogic.py", line 59, in get_legal_moves
+    newmoves = self.get_moves_for_square((x,y))
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/othello/OthelloLogic.py", line 91, in get_moves_for_square
+    move = self._discover_move(square, direction)
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/othello/OthelloLogic.py", line 123, in _discover_move
+    for x, y in Board._increment_move(origin, direction, self.n):
+  File "/home/tobias/Desktop/bachelor repository/NetworkTraining/othello/OthelloLogic.py", line 158, in _increment_move
+    move = list(map(sum, zip(move, direction)))
+KeyboardInterrupt
